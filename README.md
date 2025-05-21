@@ -17,20 +17,20 @@ Welcome to the **Data Science Basics Bootcamp**, a beginner-friendly, hands-on i
 
 ## 📅 Bootcamp Schedule
 
-| Day | Topic | Description |
-|-----|-------|-------------|
-| **Day 1** | Python Recap & Pandas Basics | Introduction to Python for data, Jupyter/Colab setup, and essential pandas operations. |
-| **Day 2** | Exploratory Data Analysis (EDA) | Understanding your data using descriptive statistics, filtering, grouping, and identifying patterns. |
-| **Day 3** | Data Visualization | Creating clear, insightful plots using Matplotlib and Seaborn to support analysis. |
-| **Day 4** | Inferential Statistics | Core statistical concepts: hypothesis testing, confidence intervals, and error types. |
-| **Day 5** | Introduction to Machine Learning | Supervised learning basics, model training, evaluation, and prediction with scikit-learn. |
-| **Day 6** | End-to-End ML Project | Build and evaluate a full machine learning pipeline from raw data to interpretation. |
+| Day | Topic | Slide | Code |
+|-----|-------|-------|------|
+| **Day 1** | Python Recap & Pandas Basics | [📑 Slides](presentations/day1_intro.pdf) | [📓 Notebooks](day1_python_intro/) |
+| **Day 2** | Exploratory Data Analysis (EDA) | [📑 Slides](presentations/eda_visualization.pdf) | [📓 Notebooks](day2_eda/) |
+| **Day 3** | Data Visualization | [📑 Slides](presentations/eda_visualization.pdf) | [📓 Notebooks](day3_visualization/) |
+| **Day 4** | Inferential Statistics | [📑 Slides](presentations/statistics.pdf) | [📓 Notebooks](day4_statistics/) |
+| **Day 5** | Introduction to Machine Learning | [📑 Slides](presentations/ml_intro.pdf) | [📓 Notebooks](day5_machine_learning/) |
+| **Day 6** | End-to-End ML Project | [📑 Slides](presentations/ml_workflow.pdf) | [📓 Notebooks](day6_end_to_end_ml/) |
 
 ---
 
 ## 📁 Folder Structure
 
-\`\`\`
+```
 Data-Science-Basics-Bootcamp/
 │
 ├── syllabus/                   # PDF syllabus of the bootcamp
@@ -44,28 +44,28 @@ Data-Science-Basics-Bootcamp/
 ├── presentations/              # Slide decks used in the sessions
 ├── requirements.txt            # Python dependencies
 └── README.md                   # You're here!
-\`\`\`
+```
 
 ---
 
 ## 🚀 Getting Started
 
 ### ✅ Option 1: Open in Google Colab (Recommended)
-1. Navigate to any \`.ipynb\` file in this repo.
+1. Navigate to any `.ipynb` file in this repo.
 2. Click the **"Open in Colab"** badge or open via:  
-   \`https://colab.research.google.com/github/parhamzm/Data-Science-Basics-Bootcamp/blob/main/path/to/notebook.ipynb\`
+   `https://colab.research.google.com/github/parhamzm/Data-Science-Basics-Bootcamp/blob/main/path/to/notebook.ipynb`
 
 ### 🖥️ Option 2: Run Locally
 1. Clone the repo:
-\`\`\`bash
+```bash
 git clone https://github.com/parhamzm/Data-Science-Basics-Bootcamp.git
 cd Data-Science-Basics-Bootcamp
-\`\`\`
+```
 
 2. Install required packages:
-\`\`\`bash
+```bash
 pip install -r requirements.txt
-\`\`\`
+```
 
 3. Launch Jupyter or VS Code and start exploring the notebooks.
 
@@ -75,13 +75,13 @@ pip install -r requirements.txt
 
 This bootcamp uses the following Python libraries:
 
-\`\`\`txt
+```
 pandas
 numpy
 matplotlib
 seaborn
 scikit-learn
-\`\`\`
+```
 
 ---
 
@@ -107,4 +107,4 @@ You are free to use, adapt, and share it with attribution.
 ## 🙌 Acknowledgements
 
 Thanks to all participants, contributors, and learners.  
-Let's make data science more accessible to everyone!
+Let’s make data science more accessible to everyone!
